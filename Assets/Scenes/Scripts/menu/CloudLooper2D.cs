@@ -1,95 +1,72 @@
 ﻿using UnityEngine;
 
-/// Muove la nuvola da sinistra→destra (o viceversa) e la riposiziona
-/// dall'altro lato quando esce dallo schermo, con un leggero bobbing.
 [RequireComponent(typeof(SpriteRenderer))]
-public class CloudLooper2D : MonoBehaviour
+public class CloudLooperSimple : MonoBehaviour
 {
-    public float speed = 1f;              // unità/s (usa negativo per dx→sx)
-    public float margin = 0.5f;           // margine extra fuori dallo schermo
-    [Header("Bobbing (facoltativo)")]
-    public float bobAmplitude = 0.05f;    // oscillazione verticale
+    [Header("Movimento uniforme")]
+    public float speed = 1f;             // +dx
+    public float margin = 0.5f;          // quanto fuori schermo wrappare
+    public float startOffsetUnits = 0f;  // offset fisso per questa nuvola (0, 2, 4 ...)
+
+    [Header("Bobbing (0 = disattivato)")]
+    public float bobAmplitude = 0f;      // es. 0.02 per un filo di vita
     public float bobFrequency = 0.6f;
 
-    [Header("Randomize ad ogni wrap")]
-    public Vector2 yRange = new Vector2(-1f, 1f); // dove può comparire in Y
-    public Vector2 speedRange = new Vector2(0.6f, 1.6f);
-    public Vector2 scaleRange = new Vector2(0.9f, 1.3f);
-
-    float _leftX, _rightX, _heightHalf;
-    float _baseY, _phase;
+    Camera _cam;
     SpriteRenderer _sr;
+    float _leftX, _rightX;
+    float _baseY;
+    float _phase;
 
-    void Start()
+    void Awake()
     {
+        _cam = Camera.main;
         _sr = GetComponent<SpriteRenderer>();
-        // Calcola i limiti in world space dalla camera principale
-        var cam = Camera.main;
-        float halfH = cam.orthographicSize;
-        float halfW = halfH * cam.aspect;
-
-        _leftX = cam.transform.position.x - halfW - margin;
-        _rightX = cam.transform.position.x + halfW + margin;
-
-        // metà larghezza sprite (per spawn/margini più precisi)
-        _heightHalf = _sr.bounds.extents.y;
-
-        // setup bobbing
         _baseY = transform.position.y;
         _phase = Random.value * Mathf.PI * 2f;
+
+        RecalcBounds();
+        // Applica subito l'offset iniziale così le tre nuvole partono distanziate
+        transform.position = new Vector3(
+            transform.position.x - startOffsetUnits,
+            transform.position.y,
+            transform.position.z
+        );
     }
 
     void Update()
     {
-        // movimento orizzontale
+        if (_cam == null) return;
+
+        RecalcBounds();
+
+        // Movimento orizzontale
         transform.position += Vector3.right * (speed * Time.deltaTime);
 
-        // bobbing
-        _phase += bobFrequency * Time.deltaTime;
-        var p = transform.position;
-        p.y = _baseY + Mathf.Sin(_phase) * bobAmplitude;
-        transform.position = p;
+        // Bobbing opzionale identico per tutte (se bobAmplitude=0, non fa nulla)
+        if (bobAmplitude > 0f)
+        {
+            _phase += bobFrequency * Time.deltaTime;
+            var p = transform.position;
+            p.y = _baseY + Mathf.Sin(_phase) * bobAmplitude;
+            transform.position = p;
+        }
 
-        // wrapping: se esce a dx, rientra a sx (o viceversa)
-        if (speed > 0f && transform.position.x - _sr.bounds.extents.x > _rightX)
-            WrapToLeft();
-        else if (speed < 0f && transform.position.x + _sr.bounds.extents.x < _leftX)
-            WrapToRight();
+        // Wrap: appena esce a destra, rientra da sinistra mantenendo L'OFFSET
+        float halfW = _sr.bounds.extents.x;
+        if (transform.position.x - halfW > _rightX)
+        {
+            var pos = transform.position;
+            pos.x = _leftX - halfW - startOffsetUnits; // ← mantiene distanza fissa
+            transform.position = pos;
+        }
     }
 
-    void WrapToLeft()
+    void RecalcBounds()
     {
-        // reset X a sinistra, random Y/scala/speed
-        var pos = transform.position;
-        pos.x = _leftX - _sr.bounds.extents.x;
-        pos.y = Random.Range(yRange.x, yRange.y);
-        transform.position = pos;
-
-        RandomizeLook();
-    }
-
-    void WrapToRight()
-    {
-        var pos = transform.position;
-        pos.x = _rightX + _sr.bounds.extents.x;
-        pos.y = Random.Range(yRange.x, yRange.y);
-        transform.position = pos;
-
-        RandomizeLook();
-    }
-
-    void RandomizeLook()
-    {
-        // random scale uniforme (parallax fake)
-        float s = Random.Range(scaleRange.x, scaleRange.y);
-        transform.localScale = new Vector3(s * Mathf.Sign(transform.localScale.x), s, 1f);
-
-        // random speed mantenendo la direzione
-        float dir = Mathf.Sign(speed);
-        speed = dir * Random.Range(speedRange.x, speedRange.y);
-
-        // aggiorna base del bobbing
-        _baseY = transform.position.y;
-        _phase = Random.value * Mathf.PI * 2f;
+        float halfH = _cam.orthographicSize;
+        float halfW = halfH * _cam.aspect;
+        _leftX = _cam.transform.position.x - halfW - margin;
+        _rightX = _cam.transform.position.x + halfW + margin;
     }
 }
