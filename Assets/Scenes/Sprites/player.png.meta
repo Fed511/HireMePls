@@ -103,12 +103,12 @@ TextureImporter:
       name: player_0
       rect:
         serializedVersion: 2
-        x: 227
-        y: 62
-        width: 537
-        height: 909
+        x: 231
+        y: 39
+        width: 655
+        height: 890
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -121,33 +121,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: player_1
-      rect:
-        serializedVersion: 2
-        x: 534
-        y: 304
-        width: 114
-        height: 384
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 64418af086867e346b846ee14d56cb80
-      internalID: 880053484
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: d1552de3119770e419bc020d55cd17e7
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -157,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      player_1: 880053484
+      player_0: 4334783836991956000
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
