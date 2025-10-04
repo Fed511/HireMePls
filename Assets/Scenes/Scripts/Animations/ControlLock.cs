@@ -16,4 +16,7 @@ public static class ControlLock
         _locks = Mathf.Max(0, _locks - 1);
         // Debug.Log($"[ControlLock] -1 ({_locks}) {reason}");
     }
+
+    public static void ClearAll() { _locks = 0; }
+
 }

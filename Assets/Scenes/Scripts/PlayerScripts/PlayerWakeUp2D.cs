@@ -6,6 +6,21 @@ using Unity.Cinemachine;      // ✅ CM3
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerWakeUp2D : MonoBehaviour
 {
+    // --------- STATE PUBBLICO (per SpawnOnSceneLoad & co.) ---------
+    public static bool IsRunning { get; private set; }
+    public static bool HasPlayedOnce => _hasPlayedOnce;
+
+    [Header("Camera Shake all'arrivo")]
+    public bool shakeOnStand = true;
+    [Tooltip("Ampiezza in unità di OrthoSize (0.06 ≈ 6% della size).")]
+    public float shakeAmplitude = 0.06f;
+    [Tooltip("Durata totale dello shake.")]
+    public float shakeDuration = 0.22f;
+    [Tooltip("Quante oscillazioni complete durante lo shake.")]
+    public int shakeCycles = 4;
+    [Tooltip("Curva d'inviluppo ampiezza (0→1 nel tempo).")]
+    public AnimationCurve shakeEnvelope = AnimationCurve.EaseInOut(0, 1, 1, 0);
+
     [Header("Target grafico (child)")]
     public Transform visual;
     public bool autoFindChildSprite = true;
@@ -34,6 +49,9 @@ public class PlayerWakeUp2D : MonoBehaviour
     public float duckInTime = 0.2f;
     public float duckOutTime = 0.6f;
     public string wakeSfxId = "";
+
+    [Tooltip("Ferma tutti i SFX attivi alla fine della cutscene.")]
+    public bool stopAllSfxOnEnd = true;
 
     [Header("Camera (Cinemachine 3)")]
     [Tooltip("Assegna la tua CinemachineCamera (CM3). Se vuoto, ne cerca una in scena.")]
@@ -65,7 +83,6 @@ public class PlayerWakeUp2D : MonoBehaviour
     float _origGravity;
     Quaternion _rotLay, _rotStand;
     Vector3 _posLay, _posStand, _baseLocal;
-
     float _baseOrtho;                 // Ortho base della vcam (Lens.OrthographicSize)
     PixelPerfectCamera _ppc;          // se presente su Main Camera
 
@@ -87,10 +104,8 @@ public class PlayerWakeUp2D : MonoBehaviour
         _posLay = layLocalOffset;
         _posStand = standLocalOffset;
 
-        // 🎥 Cinemachine 3: prendi/valida la v-cam
-        if (!cineCam)
-            cineCam = Object.FindFirstObjectByType<CinemachineCamera>(FindObjectsInactive.Exclude);
-
+        // 🎥 Cinemachine 3
+        if (!cineCam) cineCam = Object.FindFirstObjectByType<CinemachineCamera>(FindObjectsInactive.Exclude);
         if (!cineCam)
         {
             Debug.LogWarning($"{name}: nessuna CinemachineCamera trovata. Lo zoom sarà ignorato.");
@@ -98,11 +113,9 @@ public class PlayerWakeUp2D : MonoBehaviour
         }
         else
         {
-            // cache size base dalla Lens della vcam
             _baseOrtho = cineCam.Lens.OrthographicSize;
         }
 
-        // PixelPerfect (se c'è, tipicamente sulla Main Camera)
         var cam = Camera.main;
         if (cam) _ppc = cam.GetComponent<PixelPerfectCamera>();
     }
@@ -116,6 +129,7 @@ public class PlayerWakeUp2D : MonoBehaviour
 
     IEnumerator RunCutscene()
     {
+        IsRunning = true;
         ControlLock.Push("PlayerWakeUp2D");
 
         // stop controlli/animazioni
@@ -142,13 +156,11 @@ public class PlayerWakeUp2D : MonoBehaviour
         if (duckMusic && AudioManagerMusic.I != null)
             AudioManagerMusic.I.SetUserVolume(duckedVolume, duckInTime);
 
-        // 👉 NUOVO: imposta subito lo zoom OUT, poi fai partire lo zoom IN lento fino alla base
+        // Zoom-out immediato e zoom-in lento alla base
         if (useCameraZoom && cineCam)
         {
-            // set immediato a OUT
-            SetLensOrtho(cineCam, _baseOrtho + Mathf.Max(0f, startZoomOutAmount));
-            // lancia lo zoom-in PARALLELO (non aspetta)
-            StartCoroutine(CMZoomRoutine(GetLensOrtho(cineCam), _baseOrtho, zoomInTotalTime));
+            float startOut = _baseOrtho + Mathf.Max(0f, startZoomOutAmount);
+            StartCoroutine(CMZoomRoutine(startOut, _baseOrtho, zoomInTotalTime, presetAtStart: true, keepPpcDisabled: true));
         }
 
         // pre-delay (skippabile)
@@ -173,14 +185,13 @@ public class PlayerWakeUp2D : MonoBehaviour
             if (allowSkip && Input.GetKeyDown(skipKey)) break;
             t += Time.deltaTime;
             float e = ease.Evaluate(Mathf.Clamp01(t / Mathf.Max(0.0001f, riseDuration)));
-            visual.localRotation = Quaternion.Slerp(_rotLay, _rotStand, e);
-            visual.localPosition = Vector3.Lerp(_baseLocal + (Vector3)_posLay, _baseLocal + (Vector3)_posStand, e);
+            visual.localRotation = Quaternion.SlerpUnclamped(_rotLay, _rotStand, e);
+            visual.localPosition = Vector3.LerpUnclamped(_baseLocal + (Vector3)_posLay,
+                                                         _baseLocal + (Vector3)_posStand, e);
             yield return null;
         }
         visual.localRotation = _rotStand;
         visual.localPosition = _baseLocal + (Vector3)_posStand;
-
-        // (niente hold, lo zoom continua da solo fino alla size base)
 
         // ripristino fisica
 #if UNITY_600_OR_NEWER
@@ -211,23 +222,38 @@ public class PlayerWakeUp2D : MonoBehaviour
             AudioManagerMusic.I.SetUserVolume(1f, duckOutTime);
 
         _hasPlayedOnce = true;
-        enabled = false;
 
+        // stoppa eventuali one-shot SFX ancora in coda (passi, fruscii, ecc.)
+        if (stopAllSfxOnEnd)
+            AudioManagerSFX.I?.StopAll();
+
+        // forza la lens alla size base per evitare conflitti collo zoom ancora in corsa
+        if (useCameraZoom && cineCam) SetLensOrtho(cineCam, _baseOrtho);
+
+        // micro shake “si rimette in piedi”
+        if (shakeOnStand && cineCam)
+            yield return StartCoroutine(CMShakeRoutine(shakeAmplitude, shakeDuration, shakeCycles));
+
+        // chiudi
         ControlLock.Pop("PlayerWakeUp2D");
+        IsRunning = false;
+        enabled = false;
     }
 
     // --------- ZOOM CON CINEMACHINE 3 ---------
-    IEnumerator CMZoomRoutine(float from, float to, float dur)
+    IEnumerator CMZoomRoutine(float from, float to, float dur, bool presetAtStart = false, bool keepPpcDisabled = false)
     {
         if (!cineCam) yield break;
 
-        // se c'è PixelPerfect e vuoi evitarne il clamp, spegnila durante lo zoom
         bool reEnablePpc = false;
         if (disablePixelPerfectDuringZoom && _ppc && _ppc.enabled)
         {
             _ppc.enabled = false;
             reEnablePpc = true;
         }
+
+        if (presetAtStart)
+            SetLensOrtho(cineCam, from);
 
         if (dur <= 0f)
         {
@@ -238,7 +264,7 @@ public class PlayerWakeUp2D : MonoBehaviour
             float t = 0f;
             while (t < 1f)
             {
-                t += Time.deltaTime / dur;
+                t += Time.deltaTime / Mathf.Max(0.0001f, dur);
                 float v = Mathf.Lerp(from, to, Mathf.SmoothStep(0f, 1f, t));
                 SetLensOrtho(cineCam, v);
                 yield return null;
@@ -246,6 +272,35 @@ public class PlayerWakeUp2D : MonoBehaviour
             SetLensOrtho(cineCam, to);
         }
 
+        if (reEnablePpc) _ppc.enabled = true; // la riaccendiamo a fine zoom
+    }
+
+    IEnumerator CMShakeRoutine(float amplitude, float duration, int cycles)
+    {
+        if (!cineCam || duration <= 0f || amplitude <= 0f || cycles <= 0) yield break;
+
+        bool reEnablePpc = false;
+        if (disablePixelPerfectDuringZoom && _ppc && _ppc.enabled)
+        {
+            _ppc.enabled = false;
+            reEnablePpc = true;
+        }
+
+        float t = 0f;
+        float omega = Mathf.PI * 2f * cycles / Mathf.Max(0.0001f, duration);
+        float baseSize = GetLensOrtho(cineCam);
+
+        while (t < duration)
+        {
+            t += Time.deltaTime;
+            float k = Mathf.Clamp01(t / duration);
+            float env = (shakeEnvelope != null) ? Mathf.Clamp01(shakeEnvelope.Evaluate(k)) : (1f - k);
+            float offset = Mathf.Sin(t * omega) * (amplitude * baseSize) * env;
+            SetLensOrtho(cineCam, baseSize + offset);
+            yield return null;
+        }
+
+        SetLensOrtho(cineCam, baseSize);
         if (reEnablePpc) _ppc.enabled = true;
     }
 
@@ -268,4 +323,17 @@ public class PlayerWakeUp2D : MonoBehaviour
         for (int i = 0; i < list.Length; i++)
             if (list[i]) list[i].enabled = on;
     }
+
+#if UNITY_EDITOR
+    [ContextMenu("Apply Overshoot Preset")]
+    void ApplyOvershootPreset()
+    {
+        ease = new AnimationCurve(
+            new Keyframe(0f, 0f, 0f, 2.2f),
+            new Keyframe(0.80f, 1.05f, 0f, 0f),
+            new Keyframe(1f, 1f, -2.2f, 0f)
+        );
+        UnityEditor.EditorUtility.SetDirty(this);
+    }
+#endif
 }

@@ -1495,6 +1495,9 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 81246c9e9a9ac4d48a0f3a9a89487a88, type: 3}
   startupTrackId: 
   startupFade: 0.6
+  userVolume: 1
+  userPitch: 1
+  userPan: 0
 --- !u!1 &4558309441046237254
 GameObject:
   m_ObjectHideFlags: 0
@@ -1543,6 +1546,11 @@ MonoBehaviour:
     pitchJitter: 0.268
   - id: footstep
     clip: {fileID: 8300000, guid: 6e8e41e71733ebe449fbed982db10fbf, type: 3}
+    baseVolume: 0.728
+    volumeJitter: 0.337
+    pitchJitter: 0.223
+  - id: wakeup
+    clip: {fileID: 8300000, guid: e43e843a308ae994bb9dac95bb3243c8, type: 3}
     baseVolume: 0.728
     volumeJitter: 0.337
     pitchJitter: 0.223
