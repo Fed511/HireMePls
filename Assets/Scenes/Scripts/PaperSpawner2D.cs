@@ -47,7 +47,6 @@ public class PaperSpawner2D : MonoBehaviour
         if (sr)
         {
             sr.sortingOrder = orderInLayer;
-            Debug.Log(orderInLayer);
         }
         // Collega callback di "return to pool"
         var pf = go.GetComponent<PaperFloat2D>();

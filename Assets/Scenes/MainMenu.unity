@@ -1505,7 +1505,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8000062759009963465, guid: 89840d911dd4a264085afd76a2a686f3, type: 3}
       propertyPath: clips.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8000062759009963465, guid: 89840d911dd4a264085afd76a2a686f3, type: 3}
       propertyPath: clips.Array.data[0].id
@@ -1520,6 +1520,10 @@ PrefabInstance:
       value: ui_error
       objectReference: {fileID: 0}
     - target: {fileID: 8000062759009963465, guid: 89840d911dd4a264085afd76a2a686f3, type: 3}
+      propertyPath: clips.Array.data[3].id
+      value: footstep
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000062759009963465, guid: 89840d911dd4a264085afd76a2a686f3, type: 3}
       propertyPath: clips.Array.data[0].clip
       value: 
       objectReference: {fileID: 8300000, guid: dca3084cb66e8824bab682c584bec504, type: 3}
@@ -1532,6 +1536,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8300000, guid: 805b9257f76a9ce47b16409048985f89, type: 3}
     - target: {fileID: 8000062759009963465, guid: 89840d911dd4a264085afd76a2a686f3, type: 3}
+      propertyPath: clips.Array.data[3].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 6e8e41e71733ebe449fbed982db10fbf, type: 3}
+    - target: {fileID: 8000062759009963465, guid: 89840d911dd4a264085afd76a2a686f3, type: 3}
       propertyPath: clips.Array.data[0].baseVolume
       value: 0.807
       objectReference: {fileID: 0}
@@ -1542,6 +1550,10 @@ PrefabInstance:
     - target: {fileID: 8000062759009963465, guid: 89840d911dd4a264085afd76a2a686f3, type: 3}
       propertyPath: clips.Array.data[2].baseVolume
       value: 0.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000062759009963465, guid: 89840d911dd4a264085afd76a2a686f3, type: 3}
+      propertyPath: clips.Array.data[3].baseVolume
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8000062759009963465, guid: 89840d911dd4a264085afd76a2a686f3, type: 3}
       propertyPath: clips.Array.data[0].pitchJitter
@@ -1556,6 +1568,10 @@ PrefabInstance:
       value: 0.268
       objectReference: {fileID: 0}
     - target: {fileID: 8000062759009963465, guid: 89840d911dd4a264085afd76a2a686f3, type: 3}
+      propertyPath: clips.Array.data[3].pitchJitter
+      value: 0.365
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000062759009963465, guid: 89840d911dd4a264085afd76a2a686f3, type: 3}
       propertyPath: clips.Array.data[0].volumeJitter
       value: 0.056
       objectReference: {fileID: 0}
@@ -1566,6 +1582,10 @@ PrefabInstance:
     - target: {fileID: 8000062759009963465, guid: 89840d911dd4a264085afd76a2a686f3, type: 3}
       propertyPath: clips.Array.data[2].volumeJitter
       value: 0.056
+      objectReference: {fileID: 0}
+    - target: {fileID: 8000062759009963465, guid: 89840d911dd4a264085afd76a2a686f3, type: 3}
+      propertyPath: clips.Array.data[3].volumeJitter
+      value: 0.337
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
