@@ -368,11 +368,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 1
   nextSceneName: FirstScene
+  firstSpawnId: Default
   navOrder: 0
+  fadeOut: 0.5
+  fadeIn: 0.5
+  stopAllSfxOnStart: 1
+  stopMenuMusic: 1
+  musicFadeOut: 0.35
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
   hoverScale: 1.05
   tweenSpeed: 12
+  clickCooldown: 0.25
 --- !u!1 &233488987
 GameObject:
   m_ObjectHideFlags: 0
@@ -1127,11 +1134,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 2
   nextSceneName: FirstScene
+  firstSpawnId: Default
   navOrder: 0
+  fadeOut: 0.5
+  fadeIn: 0.5
+  stopAllSfxOnStart: 1
+  stopMenuMusic: 1
+  musicFadeOut: 0.35
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
   hoverScale: 1.05
   tweenSpeed: 12
+  clickCooldown: 0.25
 --- !u!1 &1565604632
 GameObject:
   m_ObjectHideFlags: 0
@@ -1281,11 +1295,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 0
   nextSceneName: Start
+  firstSpawnId: Default
   navOrder: 0
+  fadeOut: 0.5
+  fadeIn: 0.5
+  stopAllSfxOnStart: 1
+  stopMenuMusic: 1
+  musicFadeOut: 0.35
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   hoverColor: {r: 1, g: 1, b: 1, a: 1}
   hoverScale: 1.05
   tweenSpeed: 12
+  clickCooldown: 0.25
 --- !u!1 &1909987039
 GameObject:
   m_ObjectHideFlags: 0
@@ -1668,7 +1689,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: ScreenFader
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8534124663773332660, guid: 274715d1bc68af842a0428b61337982a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

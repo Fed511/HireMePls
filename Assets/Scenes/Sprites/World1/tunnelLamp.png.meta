@@ -1,0 +1,2431 @@
+fileFormatVersion: 2
+guid: ebaf392c4d9c0df489d474d729ba34b0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3503198737520674079
+    second: tunnelLamp_0
+  - first:
+      213: 9167345757438664583
+    second: tunnelLamp_1
+  - first:
+      213: 1203715470501438363
+    second: tunnelLamp_2
+  - first:
+      213: 6897039645936532219
+    second: tunnelLamp_3
+  - first:
+      213: 8416189159676730284
+    second: tunnelLamp_4
+  - first:
+      213: -1975537477620020384
+    second: tunnelLamp_5
+  - first:
+      213: 6361269097438049321
+    second: tunnelLamp_6
+  - first:
+      213: 6739377735924253392
+    second: tunnelLamp_7
+  - first:
+      213: -4109581781100804326
+    second: tunnelLamp_8
+  - first:
+      213: -2354603989643900761
+    second: tunnelLamp_9
+  - first:
+      213: 6692179964985339874
+    second: tunnelLamp_10
+  - first:
+      213: 2251979773285350585
+    second: tunnelLamp_11
+  - first:
+      213: -4534989828133639255
+    second: tunnelLamp_12
+  - first:
+      213: -3530358010516231243
+    second: tunnelLamp_13
+  - first:
+      213: 6804815155620589243
+    second: tunnelLamp_14
+  - first:
+      213: -914310352205433860
+    second: tunnelLamp_15
+  - first:
+      213: -5032565820596304644
+    second: tunnelLamp_16
+  - first:
+      213: 3388934242113904761
+    second: tunnelLamp_17
+  - first:
+      213: -6453033439629506056
+    second: tunnelLamp_18
+  - first:
+      213: -8165926967466387071
+    second: tunnelLamp_19
+  - first:
+      213: 5711177846874320870
+    second: tunnelLamp_20
+  - first:
+      213: 1804995590136838802
+    second: tunnelLamp_21
+  - first:
+      213: 6854707935926555945
+    second: tunnelLamp_22
+  - first:
+      213: 3181773141974413576
+    second: tunnelLamp_23
+  - first:
+      213: 7851140291261562603
+    second: tunnelLamp_24
+  - first:
+      213: -4522640037701282834
+    second: tunnelLamp_25
+  - first:
+      213: -1117061873449567471
+    second: tunnelLamp_26
+  - first:
+      213: -610382626005953123
+    second: tunnelLamp_27
+  - first:
+      213: -6786427091108306829
+    second: tunnelLamp_28
+  - first:
+      213: -4339505564812248306
+    second: tunnelLamp_29
+  - first:
+      213: 7260071639743821777
+    second: tunnelLamp_30
+  - first:
+      213: 4399106844463628511
+    second: tunnelLamp_31
+  - first:
+      213: -8297835578277027397
+    second: tunnelLamp_32
+  - first:
+      213: 3607146733686377678
+    second: tunnelLamp_33
+  - first:
+      213: 5541683894463763881
+    second: tunnelLamp_34
+  - first:
+      213: -6329794386919341029
+    second: tunnelLamp_35
+  - first:
+      213: -8513803399400263226
+    second: tunnelLamp_36
+  - first:
+      213: -6652384846611316682
+    second: tunnelLamp_37
+  - first:
+      213: 6376956425027616111
+    second: tunnelLamp_38
+  - first:
+      213: 2621993539323845401
+    second: tunnelLamp_39
+  - first:
+      213: 3842516377281260631
+    second: tunnelLamp_40
+  - first:
+      213: -7423168411082329637
+    second: tunnelLamp_41
+  - first:
+      213: -3578701770625574368
+    second: tunnelLamp_42
+  - first:
+      213: -2090283634777502030
+    second: tunnelLamp_43
+  - first:
+      213: -3289009024716904802
+    second: tunnelLamp_44
+  - first:
+      213: 3604510875962232999
+    second: tunnelLamp_45
+  - first:
+      213: 6010152579615809032
+    second: tunnelLamp_46
+  - first:
+      213: -8296612941759215248
+    second: tunnelLamp_47
+  - first:
+      213: 6900782152594312113
+    second: tunnelLamp_48
+  - first:
+      213: 8055336192441927226
+    second: tunnelLamp_49
+  - first:
+      213: -1457194557886483282
+    second: tunnelLamp_50
+  - first:
+      213: -5313401353991999409
+    second: tunnelLamp_51
+  - first:
+      213: -7390674935001211418
+    second: tunnelLamp_52
+  - first:
+      213: 7217470841486340486
+    second: tunnelLamp_53
+  - first:
+      213: 2070942011713878299
+    second: tunnelLamp_54
+  - first:
+      213: 7921634517126838146
+    second: tunnelLamp_55
+  - first:
+      213: 138822443831530240
+    second: tunnelLamp_56
+  - first:
+      213: 4843176177850950753
+    second: tunnelLamp_57
+  - first:
+      213: -6388476445145245188
+    second: tunnelLamp_58
+  - first:
+      213: 9165678863129073627
+    second: tunnelLamp_59
+  - first:
+      213: -4062385452860122739
+    second: tunnelLamp_60
+  - first:
+      213: -5963607243630705421
+    second: tunnelLamp_61
+  - first:
+      213: 7201457831696965360
+    second: tunnelLamp_62
+  - first:
+      213: 3508986210225291871
+    second: tunnelLamp_63
+  - first:
+      213: 5686258870170271699
+    second: tunnelLamp_64
+  - first:
+      213: 774818122301547985
+    second: tunnelLamp_65
+  - first:
+      213: 1035454409990116507
+    second: tunnelLamp_66
+  - first:
+      213: -5440827551901123280
+    second: tunnelLamp_67
+  - first:
+      213: -363370519988505884
+    second: tunnelLamp_68
+  - first:
+      213: 4649738782228081646
+    second: tunnelLamp_69
+  - first:
+      213: 5976130149562758046
+    second: tunnelLamp_70
+  - first:
+      213: 2956904238956793144
+    second: tunnelLamp_71
+  - first:
+      213: 9188482467915850436
+    second: tunnelLamp_72
+  - first:
+      213: 4196346503560778059
+    second: tunnelLamp_73
+  - first:
+      213: 8088265515916428607
+    second: tunnelLamp_74
+  - first:
+      213: 6890330246272349210
+    second: tunnelLamp_75
+  - first:
+      213: -3576306763697726360
+    second: tunnelLamp_76
+  - first:
+      213: 86785530966697626
+    second: tunnelLamp_77
+  - first:
+      213: -5208011173171954014
+    second: tunnelLamp_78
+  - first:
+      213: -4042875725657826311
+    second: tunnelLamp_79
+  - first:
+      213: -6578010771431091224
+    second: tunnelLamp_80
+  - first:
+      213: 8190365280198792733
+    second: tunnelLamp_81
+  - first:
+      213: 8468600191306889457
+    second: tunnelLamp_82
+  - first:
+      213: -5301817948952429616
+    second: tunnelLamp_83
+  - first:
+      213: 4922380931515861688
+    second: tunnelLamp_84
+  - first:
+      213: -7070062610020932050
+    second: tunnelLamp_85
+  - first:
+      213: -3928585689789551977
+    second: tunnelLamp_86
+  - first:
+      213: -4788007702391923082
+    second: tunnelLamp_87
+  - first:
+      213: -2190883167357726257
+    second: tunnelLamp_88
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tunnelLamp_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 113
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f154487e0bcdd9030800000000000000
+      internalID: 3503198737520674079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_1
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 0
+        width: 1427
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78fd05d4564f83f70800000000000000
+      internalID: 9167345757438664583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_2
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 1008
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9361e5c7d474b010800000000000000
+      internalID: 1203715470501438363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_3
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 1016
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa35d1140537bf50800000000000000
+      internalID: 6897039645936532219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_4
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 991
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cab5609237f4cc470800000000000000
+      internalID: 8416189159676730284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_5
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 963
+        width: 8
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06bccf5812b7594e0800000000000000
+      internalID: -1975537477620020384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_6
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 983
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 924f6796a84c74850800000000000000
+      internalID: 6361269097438049321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_7
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 975
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d201f41854178d50800000000000000
+      internalID: 6739377735924253392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_8
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 951
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a17c112c425d7f6c0800000000000000
+      internalID: -4109581781100804326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_9
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 943
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a8ce8a8524c25fd0800000000000000
+      internalID: -2354603989643900761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 934
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2efefe1b8366fdc50800000000000000
+      internalID: 6692179964985339874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_11
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 903
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bcb90c1ca3a04f10800000000000000
+      internalID: 2251979773285350585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_12
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 895
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aba51a57ca7011c0800000000000000
+      internalID: -4534989828133639255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_13
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 884
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bba9351816a10fc0800000000000000
+      internalID: -3530358010516231243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_14
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 870
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbea5f0a45f8f6e50800000000000000
+      internalID: 6804815155620589243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_15
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 862
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf335523497bf43f0800000000000000
+      internalID: -914310352205433860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_16
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 851
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf4c592cc0cb82ab0800000000000000
+      internalID: -5032565820596304644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_17
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 846
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9706b54ecb9e70f20800000000000000
+      internalID: 3388934242113904761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_18
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 835
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f98a2bb6483276a0800000000000000
+      internalID: -6453033439629506056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_19
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 819
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189126220bcccae80800000000000000
+      internalID: -8165926967466387071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_20
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 797
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ef260c1efd224f40800000000000000
+      internalID: 5711177846874320870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_21
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 807
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ab04b0de1ac0910800000000000000
+      internalID: 1804995590136838802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_22
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 778
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92514f7cc80d02f50800000000000000
+      internalID: 6854707935926555945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_23
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 774
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 801734b90dde72c20800000000000000
+      internalID: 3181773141974413576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_24
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 766
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beef66e6f7ad4fc60800000000000000
+      internalID: 7851140291261562603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_25
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 733
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee31bd109da5c31c0800000000000000
+      internalID: -4522640037701282834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_26
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 735
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11bf7e005266f70f0800000000000000
+      internalID: -1117061873449567471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_27
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 710
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9558df4c3c7787f0800000000000000
+      internalID: -610382626005953123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_28
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 719
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 370e6644484c1d1a0800000000000000
+      internalID: -6786427091108306829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_29
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 692
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0bf8843eaaf6c3c0800000000000000
+      internalID: -4339505564812248306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_30
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 686
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d771dad0b4f0c460800000000000000
+      internalID: 7260071639743821777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_31
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 648
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd08e391e54cc0d30800000000000000
+      internalID: 4399106844463628511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_32
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 655
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb12330618a28dc80800000000000000
+      internalID: -8297835578277027397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_33
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 638
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc4612c7d82f0230800000000000000
+      internalID: 3607146733686377678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_34
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 631
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a51403142408ec40800000000000000
+      internalID: 5541683894463763881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_35
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 616
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b144962ba8d0828a0800000000000000
+      internalID: -6329794386919341029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_36
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 606
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1fb339ae4e8d980800000000000000
+      internalID: -8513803399400263226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_37
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 607
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6308a845a3bfda3a0800000000000000
+      internalID: -6652384846611316682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_38
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 571
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d7aedf4108f7850800000000000000
+      internalID: 6376956425027616111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_39
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 531
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b54ca6b31336420800000000000000
+      internalID: 2621993539323845401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_40
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 550
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c687f594c535530800000000000000
+      internalID: 3842516377281260631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_41
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 511
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd17985e8ab9bf890800000000000000
+      internalID: -7423168411082329637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_42
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 526
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a1dcc43b5e55ec0800000000000000
+      internalID: -3578701770625574368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_43
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 475
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be4645eb12ddf2e0800000000000000
+      internalID: -2090283634777502030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_44
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 470
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e96e1bac7b71b52d0800000000000000
+      internalID: -3289009024716904802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_45
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 448
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a0d2ce4b8bc50230800000000000000
+      internalID: 3604510875962232999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_46
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 435
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80ed5e19de9586350800000000000000
+      internalID: 6010152579615809032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_47
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 422
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 079888f9c728cdc80800000000000000
+      internalID: -8296612941759215248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_48
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 406
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bb4dbd4ec084cf50800000000000000
+      internalID: 6900782152594312113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_49
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 390
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3649d8869d4acf60800000000000000
+      internalID: 8055336192441927226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_50
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 360
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea43b88254107cbe0800000000000000
+      internalID: -1457194557886483282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_51
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 350
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f403a32ce910346b0800000000000000
+      internalID: -5313401353991999409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_52
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 332
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed9ed8dd4c0f6990800000000000000
+      internalID: -7390674935001211418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_53
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 323
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68178839d7b992460800000000000000
+      internalID: 7217470841486340486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_54
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 310
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1973ae89c67dbc10800000000000000
+      internalID: 2070942011713878299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_55
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 279
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28771d96f9c4fed60800000000000000
+      internalID: 7921634517126838146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_56
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 227
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0031e63f6423de100800000000000000
+      internalID: 138822443831530240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_57
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 246
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 164a071d21b663340800000000000000
+      internalID: 4843176177850950753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_58
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 220
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf9da2f45829757a0800000000000000
+      internalID: -6388476445145245188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_59
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 180
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd75d1a3d58033f70800000000000000
+      internalID: 9165678863129073627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_60
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 176
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d89de8d34f18f97c0800000000000000
+      internalID: -4062385452860122739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_61
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 173
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f40277fec20d3da0800000000000000
+      internalID: -5963607243630705421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_62
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 164
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe90433eb7b0f360800000000000000
+      internalID: 7201457831696965360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_63
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 169
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f520936ed5c62b030800000000000000
+      internalID: 3508986210225291871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_64
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 165
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dfb969b056a9ee40800000000000000
+      internalID: 5686258870170271699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_65
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 139
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d5a1512af4b0ca00800000000000000
+      internalID: 774818122301547985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_66
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 147
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b949290cc4cae5e00800000000000000
+      internalID: 1035454409990116507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_67
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 126
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d76c41b2c4e74b0800000000000000
+      internalID: -5440827551901123280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_68
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 130
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e27c32ff6c05faf0800000000000000
+      internalID: -363370519988505884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_69
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 116
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eebef0d79c0378040800000000000000
+      internalID: 4649738782228081646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_70
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 111
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e93b03845ba7fe250800000000000000
+      internalID: 5976130149562758046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_71
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 78
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83dcddd2db8090920800000000000000
+      internalID: 2956904238956793144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_72
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 104
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c267053f1c048f70800000000000000
+      internalID: 9188482467915850436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_73
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 104
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b41513b69ea6c3a30800000000000000
+      internalID: 4196346503560778059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_74
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 91
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f358d3d12aa4f3070800000000000000
+      internalID: 8088265515916428607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_75
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 95
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a14713a3ade5f9f50800000000000000
+      internalID: 6890330246272349210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_76
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 68
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c58fd42f76e5ec0800000000000000
+      internalID: -3576306763697726360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_77
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 72
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a96e9e80bf2543100800000000000000
+      internalID: 86785530966697626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_78
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 62
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aef1d46e6d69b7b0800000000000000
+      internalID: -5208011173171954014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_79
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 53
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fb9d1592f1d4e7c0800000000000000
+      internalID: -4042875725657826311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_80
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 47
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e318202e0636b4a0800000000000000
+      internalID: -6578010771431091224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_81
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 35
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1611f2f3d50aa170800000000000000
+      internalID: 8190365280198792733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_82
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 39
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f8f6a36103868570800000000000000
+      internalID: 8468600191306889457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_83
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 23
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db76e86aa82c66b0800000000000000
+      internalID: -5301817948952429616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_84
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 23
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bac828906fcf4440800000000000000
+      internalID: 4922380931515861688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_85
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 19
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e266ee5d38712ed90800000000000000
+      internalID: -7070062610020932050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_86
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 8
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a2962312cda79c0800000000000000
+      internalID: -3928585689789551977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_87
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 8
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e5815dc549d8db0800000000000000
+      internalID: -4788007702391923082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tunnelLamp_88
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 5
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc19249fd5b6891e0800000000000000
+      internalID: -2190883167357726257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tunnelLamp_0: 3503198737520674079
+      tunnelLamp_1: 9167345757438664583
+      tunnelLamp_10: 6692179964985339874
+      tunnelLamp_11: 2251979773285350585
+      tunnelLamp_12: -4534989828133639255
+      tunnelLamp_13: -3530358010516231243
+      tunnelLamp_14: 6804815155620589243
+      tunnelLamp_15: -914310352205433860
+      tunnelLamp_16: -5032565820596304644
+      tunnelLamp_17: 3388934242113904761
+      tunnelLamp_18: -6453033439629506056
+      tunnelLamp_19: -8165926967466387071
+      tunnelLamp_2: 1203715470501438363
+      tunnelLamp_20: 5711177846874320870
+      tunnelLamp_21: 1804995590136838802
+      tunnelLamp_22: 6854707935926555945
+      tunnelLamp_23: 3181773141974413576
+      tunnelLamp_24: 7851140291261562603
+      tunnelLamp_25: -4522640037701282834
+      tunnelLamp_26: -1117061873449567471
+      tunnelLamp_27: -610382626005953123
+      tunnelLamp_28: -6786427091108306829
+      tunnelLamp_29: -4339505564812248306
+      tunnelLamp_3: 6897039645936532219
+      tunnelLamp_30: 7260071639743821777
+      tunnelLamp_31: 4399106844463628511
+      tunnelLamp_32: -8297835578277027397
+      tunnelLamp_33: 3607146733686377678
+      tunnelLamp_34: 5541683894463763881
+      tunnelLamp_35: -6329794386919341029
+      tunnelLamp_36: -8513803399400263226
+      tunnelLamp_37: -6652384846611316682
+      tunnelLamp_38: 6376956425027616111
+      tunnelLamp_39: 2621993539323845401
+      tunnelLamp_4: 8416189159676730284
+      tunnelLamp_40: 3842516377281260631
+      tunnelLamp_41: -7423168411082329637
+      tunnelLamp_42: -3578701770625574368
+      tunnelLamp_43: -2090283634777502030
+      tunnelLamp_44: -3289009024716904802
+      tunnelLamp_45: 3604510875962232999
+      tunnelLamp_46: 6010152579615809032
+      tunnelLamp_47: -8296612941759215248
+      tunnelLamp_48: 6900782152594312113
+      tunnelLamp_49: 8055336192441927226
+      tunnelLamp_5: -1975537477620020384
+      tunnelLamp_50: -1457194557886483282
+      tunnelLamp_51: -5313401353991999409
+      tunnelLamp_52: -7390674935001211418
+      tunnelLamp_53: 7217470841486340486
+      tunnelLamp_54: 2070942011713878299
+      tunnelLamp_55: 7921634517126838146
+      tunnelLamp_56: 138822443831530240
+      tunnelLamp_57: 4843176177850950753
+      tunnelLamp_58: -6388476445145245188
+      tunnelLamp_59: 9165678863129073627
+      tunnelLamp_6: 6361269097438049321
+      tunnelLamp_60: -4062385452860122739
+      tunnelLamp_61: -5963607243630705421
+      tunnelLamp_62: 7201457831696965360
+      tunnelLamp_63: 3508986210225291871
+      tunnelLamp_64: 5686258870170271699
+      tunnelLamp_65: 774818122301547985
+      tunnelLamp_66: 1035454409990116507
+      tunnelLamp_67: -5440827551901123280
+      tunnelLamp_68: -363370519988505884
+      tunnelLamp_69: 4649738782228081646
+      tunnelLamp_7: 6739377735924253392
+      tunnelLamp_70: 5976130149562758046
+      tunnelLamp_71: 2956904238956793144
+      tunnelLamp_72: 9188482467915850436
+      tunnelLamp_73: 4196346503560778059
+      tunnelLamp_74: 8088265515916428607
+      tunnelLamp_75: 6890330246272349210
+      tunnelLamp_76: -3576306763697726360
+      tunnelLamp_77: 86785530966697626
+      tunnelLamp_78: -5208011173171954014
+      tunnelLamp_79: -4042875725657826311
+      tunnelLamp_8: -4109581781100804326
+      tunnelLamp_80: -6578010771431091224
+      tunnelLamp_81: 8190365280198792733
+      tunnelLamp_82: 8468600191306889457
+      tunnelLamp_83: -5301817948952429616
+      tunnelLamp_84: 4922380931515861688
+      tunnelLamp_85: -7070062610020932050
+      tunnelLamp_86: -3928585689789551977
+      tunnelLamp_87: -4788007702391923082
+      tunnelLamp_88: -2190883167357726257
+      tunnelLamp_9: -2354603989643900761
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
