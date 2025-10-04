@@ -26,6 +26,19 @@ public class MovementMotor2D : MonoBehaviour
         _rb.interpolation = RigidbodyInterpolation2D.Interpolate;
         // NON freezare la rotazione se vuoi ruotare il body; se ruoti solo il visual, puoi freezare Z
     }
+    public void HardStop()
+    {
+#if UNITY_600_OR_NEWER
+    _rb.linearVelocity = Vector2.zero;
+#else
+        _rb.linearVelocity = Vector2.zero;
+#endif
+        _rb.angularVelocity = 0f;
+
+        // azzera lo stato interno del motor
+        _current = Vector2.zero;
+        _desired = Vector2.zero;
+    }
 
     void Update()
     {
